@@ -1,0 +1,1 @@
+pgrep -f "api.py" | xargs kill -9

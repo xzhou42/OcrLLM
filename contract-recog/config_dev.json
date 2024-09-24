@@ -1,0 +1,14 @@
+{
+  "CALLBACK_URL": "http://0.0.0.0:8080/callback",
+
+  "LLM_URL": "http://0.0.0.0:11434/v1",
+
+  "MYSQL_HOST": "0.0.0.0",
+
+  "MYSQL_USER": "dev",
+
+  "MYSQL_PASSWORD": "devcode",
+
+  "MYSQL_DATABASE": "devdb"
+
+}
