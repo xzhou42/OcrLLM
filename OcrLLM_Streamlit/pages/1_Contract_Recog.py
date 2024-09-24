@@ -8,9 +8,11 @@ tsk_id = "task_001"  # 替换为实际的 tsk_id
 
 
 with st.sidebar:
-    anthropic_api_key = st.text_input("Anthropic API Key", key="file_qa_api_key", type="password")
-    "[View the source code](https://github.com/streamlit/llm-examples/blob/main/pages/1_File_Q%26A.py)"
-    "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/llm-examples?quickstart=1)"
+    image_path="images/robot.png"
+    st.image(image_path, caption='合同识别模型助手', use_column_width=True)
+    "[View the source code](https://github.com/xzhou42/OcrLLM/tree/main/OcrLLM_Streamlit)"
+    "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/xzhou42/OcrLLM/tree/main/contract-recog)"
+
 
 st.title("📝 制式合同关键字段识别")
 # 注入自定义 CSS 样式

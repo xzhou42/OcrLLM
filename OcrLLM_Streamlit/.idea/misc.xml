@@ -3,5 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="Python 3.10 (llm-examples-main)" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.10 (llm-examples-main)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.10 (OcrLLM_Streamlit)" project-jdk-type="Python SDK" />
 </project>
